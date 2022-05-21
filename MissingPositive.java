@@ -18,7 +18,7 @@ public class MissingPositive {
         for(int i=0;i<n;i++){
             if(ar[i]<=0)
             continue;
-            if(i!= n-1 && ar[i]==c && ar[i+1] !=c)
+            if(ar[i]==c)
             c++;
             else
             break;
