@@ -22,7 +22,6 @@ public class TrappingWater {
               {
                   rightMax = Math.max(rightMax,ar[j]);
               }
-              System.out.println(leftMax + " " + rightMax);
               sum += Math.min(leftMax,rightMax) - ar[i];
           }
           return sum;
